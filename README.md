@@ -2,6 +2,8 @@
 
 > *"In the wake of ash rises amber light—war’s final breath exhaled into peace."*
 
+![[cover.jpg]]
+
 ---
 
 ## ⚔️ The Battlefield
@@ -19,7 +21,7 @@ The fields were scorched by cannon-fire, trampled by boots driven by duty, and s
 **Suggested image placement:**
 
 ```md
-![[battlefield.jpg]]
+
 ```
 
 > Recommended placement: Just below “The Battlefield” section for immersion.
