@@ -2,7 +2,7 @@
 
 > *"In the wake of ash rises amber light—war’s final breath exhaled into peace."*
 
-![[cover.jpg]]
+![Preview of the theme](https://github.com/7RiKuSama/Ash-and-Amber/blob/main/cover.jpg?raw=true)
 
 ---
 
@@ -13,30 +13,6 @@ There was once a valley, unnamed by any cartographer, shaped like a wound torn t
 The fields were scorched by cannon-fire, trampled by boots driven by duty, and soaked in the cries of those who charged forward not knowing if they'd return.
 
 *The air itself seemed to scream.*
-
----
-
-### 🖼️ *Insert a battle scene image here*
-
-**Suggested image placement:**
-
-```md
-
-```
-
-> Recommended placement: Just below “The Battlefield” section for immersion.
-
----
-
-## 🕯️ The Silence After
-
-But battles do not last forever.
-
-Eventually, the sound begins to fade. No more commands. No more screams. Just the quiet crunch of boots walking without urgency, without fear. The wind returns, gentle this time, no longer forced by fury but arriving like a whisper.
-
-Among the torn standards and shattered shields, survivors walk. Some stagger. Some sit and stare. Others kneel to press their hand into the dirt—alive, though unsure why.
-
-This is the moment war becomes memory.
 
 ---
 
@@ -56,17 +32,8 @@ They are witnesses.
 
 ---
 
-### 🖼️ *Insert sunset image here*
 
-**Suggested image placement:**
 
-```md
-![[sunset-after-battle.jpg]]
-```
-
-> Recommended placement: Directly after "The Sunset" section, to symbolize contrast and peace.
-
----
 
 ## 🛌 The Rest
 
@@ -75,54 +42,6 @@ Some sleep, right there in the field, armor still clinging to them like memories
 No one tells them where to go. There is no need.
 
 In this place of ash and amber, they rest. And the world, as if in apology, lets them.
-
----
-
-## 🕊️ Legacy of the Ash and Amber
-
-This place remains. Not in maps, but in minds.
-
-Bards sing of it in quiet taverns. Old soldiers whisper of it over their cups. Painters try to capture that impossible sky. Writers scratch at parchment to catch the shape of silence that followed the war.
-
-And now, you walk these pages—perhaps to remember, perhaps to heal.
-
-Where there was once only ash, there is now also amber. And that is enough.
-
----
-
-### 📸 Add More Media or Ambient Files
-
-To include more immersive elements:
-
-* Ambient music:
-
-  ```md
-  ![[sunset-silence.mp3]]
-  ```
-* Voice narration:
-
-  ```md
-  ![[battlefield-narration.m4a]]
-  ```
-* Sketches, character faces, armor details, or journal entries:
-
-  ```md
-  ![[soldier-sketch-1.png]]
-  ![[scrawled-note.md]]
-  ```
-
----
-
-## 🧱 Theme Tie-In (Optional)
-
-This piece inspired the design ethos of the **Ash and Amber** theme:
-
-* **Charcoal grays** for memory and battle
-* **Glowing ambers** for hope, sunset, and resilience
-* **Faint textures** like parchment and dust
-* **Subtle transitions** between shadows and light
-
-Let your interface feel like a field just after war—quiet, reverent, glowing.
 
 ---
 
