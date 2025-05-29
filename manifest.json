@@ -1,0 +1,10 @@
+{
+   "name": "Ash & Amber",
+   "version": "0.1.0",
+   "minAppVersion": "0.1.0",
+   "author": "insanum",
+   "authorUrl": "https://github.com/7RiKuSama",
+   "description": "The first release of Ash & Amber — a soft, dusk-inspired theme that reflects the peace after a long battle.",
+   "isTheme": true,
+   "css": "theme.css"
+ }

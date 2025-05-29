@@ -1,0 +1,221 @@
+:root {
+    /* Cappuccino-inspired dark greys and warm sunset accents */
+    --cappu-bg_x: 36, 26, 35;      /* dark grey, #24273a */
+    --cappu-bg:   rgb(48, 44, 44);
+    --cappu-bg-alt_x: 40, 35, 47;  /* slightly lighter, #303446 */
+    --cappu-bg-alt: rgb(47, 41, 38);
+    --cappu-surface_x: 68, 71, 90; /* surface, #44475a */
+    --cappu-surface: rgb(40, 34, 33);
+
+    --sunset-orange_x: 255, 158, 100; /* vivid orange, #ff9e64 */
+    --sunset-orange:   rgb(var(--sunset-orange_x));
+    --sunset-orange-heading_x: 255, 210, 102; /* warm yellow, #ffd266 */
+    --sunset-orange-heading:   rgb(255, 132, 105);
+    --sunset-yellow_x: 255, 175, 105; /* warm yellow, #ffd266 */
+    --sunset-yellow:   rgb(255, 230, 180);
+    --sunset-pink_x:   255, 135, 162; /* soft pink, #ff87a2 */
+    --sunset-pink:     rgb(var(--sunset-pink_x));
+    --sunset-purple_x: 180, 142, 255; /* soft purple, #b48eff */
+    --sunset-purple:   rgb(var(--sunset-purple_x));
+    --sunset-red_x:    255, 85, 85;   /* sunset red, #ff5555 */
+    --sunset-red:      rgb(var(--sunset-red_x));
+
+    --accent-orange_x: var(--sunset-orange_x);
+    --accent-orange:   var(--sunset-orange);
+    --accent-yellow_x: var(--sunset-yellow_x);
+    --accent-yellow:   var(--sunset-yellow);
+    --accent-pink_x:   var(--sunset-pink_x);
+    --accent-pink:     var(--sunset-pink);
+    --accent-purple_x: var(--sunset-purple_x);
+    --accent-purple:   var(--sunset-purple);
+    --accent-red_x:    var(--sunset-red_x);
+    --accent-red:      var(--sunset-red);
+}
+
+.theme-dark {
+    --background-primary:            var(--cappu-bg);
+    --background-primary-alt:        var(--cappu-bg-alt);
+    --background-secondary:          var(--cappu-bg-alt);
+    --background-secondary-alt:      var(--cappu-surface);
+    --background-modifier-border:    var(--cappu-surface);
+
+    --cursor-line-background:        rgba(var(--sunset-orange_x), 0.12);
+
+    --text-normal:                   var(--sunset-yellow);
+    --text-faint:                    rgba(var(--sunset-orange_x), 1);
+    --text-muted:                    rgba(var(--sunset-orange_x), 1);
+
+    --link-url:                      var(--sunset-orange);
+
+    --h1-color:                      var(--sunset-orange);
+    --h2-color:                      var(--sunset-orange-heading);
+    --h3-color:                      var(--sunset-pink);
+    --h4-color:                      var(--sunset-purple);
+    --h5-color:                      var(--accent-red);
+    --h6-color:                      var(--accent-purple);
+
+    --text-highlight-bg:             var(--sunset-orange);
+    --text-highlight-fg:             var(--cappu-bg);
+
+    --text-accent:                   var(--sunset-orange);
+    --text-accent-hover:             var(--sunset-orange-heading);
+
+    --tag-color:                     var(--sunset-orange-heading);
+    --tag-background:                var(--cappu-surface);
+    --tag-background-hover:          var(--cappu-bg-alt);
+
+    --titlebar-text-color-focused:   var(--sunset-orange);
+
+    --inline-title-color:            var(--sunset-orange-heading);
+
+    --bold-color:                    var(--sunset-orange-heading);
+    --italic-color:                  var(--sunset-orange);
+
+    --checkbox-color:                var(--sunset-orange);
+    --checkbox-color-hover:          var(--sunset-orange-heading);
+    --checkbox-border-color:         var(--sunset-orange);
+    --checkbox-border-color-hover:   var(--sunset-orange-heading);
+    --checklist-done-color:          rgba(var(--sunset-orange-heading_x), 0.3);
+
+    --table-header-background:       rgba(var(--cappu-surface_x), 0.8);
+    --table-header-background-hover: var(--sunset-orange);
+    --table-row-even-background:     rgba(var(--cappu-bg-alt_x), 0.8);
+    --table-row-odd-background:      rgba(var(--cappu-surface_x), 0.8);
+    --table-row-background-hover:    var(--sunset-orange);
+
+    --text-selection:                rgba(var(--sunset-orange_x), 0.25);
+    --flashing-background:           rgba(var(--sunset-orange_x), 0.15);
+
+    --code-normal:                   var(--sunset-orange-heading);
+    --code-background:               var(--cappu-bg-alt);
+
+    --mermaid-note:                  var(--sunset-orange);
+    --mermaid-loopline:              var(--sunset-orange-heading);
+    --mermaid-exclude:               var(--cappu-surface);
+    --mermaid-seqnum:                var(--cappu-bg);
+
+    --icon-color-hover:              var(--sunset-orange);
+    --icon-color-focused:            var(--sunset-orange-heading);
+
+    --nav-item-color-hover:          var(--sunset-orange);
+    --nav-item-color-active:         var(--sunset-orange-heading);
+    --nav-file-tag:                  rgba(var(--sunset-orange-heading_x), 0.9);
+
+    --graph-line:                    var(--sunset-pink);
+    --graph-node:                    var(--sunset-orange-heading);
+    --graph-node-tag:                var(--sunset-orange);
+    --graph-node-attachment:         var(--sunset-pink);
+
+    --calendar-hover:                var(--sunset-orange);
+    --calendar-background-hover:     var(--cappu-surface);
+    --calendar-week:                 var(--sunset-orange-heading);
+    --calendar-today:                var(--sunset-orange-heading);
+
+    --dataview-key:                  var(--text-faint);
+    --dataview-key-background:       rgba(var(--sunset-purple_x), 0.2);
+    --dataview-value:                var(--text-faint);
+    --dataview-value-background:     rgba(var(--sunset-orange_x), 0.2);
+
+    --tab-text-color-focused-active:         var(--sunset-orange-heading);
+    --tab-text-color-focused-active-current: var(--sunset-orange);
+}
+
+
+.theme-light {
+    --background-primary:            rgb(255, 171, 119); /* warm white-orange */
+    --background-primary-alt:        rgb(162, 140, 117);
+    --background-secondary:          rgb(255, 171, 119);
+    --background-secondary-alt:      rgb(255, 171, 119);
+    --background-modifier-border:    rgb(135, 105, 79);
+
+    --cursor-line-background:        rgba(200, 120, 60, 0.10);
+
+    --text-normal:                   rgb(20, 4, 4); /* dark brown */
+    --text-faint:                    rgba(64, 43, 21, 0.8);
+    --text-muted:                    rgba(42, 28, 15, 0.6);
+
+    --link-url:                      rgb(87, 53, 27);
+
+    --h1-color:                      rgb(200, 86, 60);
+    --h2-color:                      rgb(180, 59, 40);
+    --h3-color:                      rgb(170, 80, 100);
+    --h4-color:                      rgb(120, 80, 160);
+    --h5-color:                      rgb(180, 60, 60);
+    --h6-color:                      rgb(120, 80, 160);
+
+    --text-highlight-bg:             rgb(255, 230, 180);
+    --text-highlight-fg:             rgb(80, 60, 40);
+
+    --text-accent:                   rgb(200, 120, 60);
+    --text-accent-hover:             rgb(180, 100, 40);
+
+    --tag-color:                     rgb(60, 38, 20);
+    --tag-background:                rgb(255, 238, 220);
+    --tag-background-hover:          rgb(255, 230, 200);
+
+    --titlebar-text-color-focused:   rgb(200, 120, 60);
+
+    --inline-title-color:            rgb(180, 100, 40);
+
+    --bold-color:                    rgb(180, 100, 40);
+    --italic-color:                  rgb(200, 120, 60);
+
+    --checkbox-color:                rgb(200, 120, 60);
+    --checkbox-color-hover:          rgb(180, 100, 40);
+    --checkbox-border-color:         rgb(200, 120, 60);
+    --checkbox-border-color-hover:   rgb(180, 100, 40);
+    --checklist-done-color:          rgba(180, 100, 40, 0.2);
+
+    --table-header-background:       rgba(255, 230, 200, 0.8);
+    --table-header-background-hover: rgb(200, 120, 60);
+    --table-row-even-background:     rgba(255, 238, 220, 0.8);
+    --table-row-odd-background:      rgba(255, 230, 200, 0.8);
+    --table-row-background-hover:    rgb(255, 230, 180);
+
+    --text-selection:                rgba(200, 120, 60, 0.15);
+    --flashing-background:           rgba(200, 120, 60, 0.10);
+
+    --code-normal:                   rgb(60, 38, 20); /* darker for better contrast */
+    --code-background:               rgb(255, 238, 220); /* lighter for better contrast */
+
+    --mermaid-note:                  rgb(200, 120, 60);
+    --mermaid-loopline:              rgb(180, 100, 40);
+    --mermaid-exclude:               rgb(255, 230, 200);
+    --mermaid-seqnum:                rgb(255, 245, 235);
+
+    --icon-color-hover:              rgb(200, 120, 60);
+    --icon-color-focused:            rgb(180, 100, 40);
+
+    --nav-item-color-hover:          rgb(200, 120, 60);
+    --nav-item-color-active:         rgb(180, 100, 40);
+    --nav-file-tag:                  rgba(180, 100, 40, 0.8);
+
+    --graph-line:                    rgb(170, 80, 100);
+    --graph-node:                    rgb(180, 100, 40);
+    --graph-node-tag:                rgb(200, 120, 60);
+    --graph-node-attachment:         rgb(170, 80, 100);
+
+    --calendar-hover:                rgb(200, 120, 60);
+    --calendar-background-hover:     rgb(255, 230, 200);
+    --calendar-week:                 rgb(180, 100, 40);
+    --calendar-today:                rgb(180, 100, 40);
+
+    --dataview-key:                  var(--text-faint);
+    --dataview-key-background:       rgba(120, 80, 160, 0.1);
+    --dataview-value:                var(--text-faint);
+    --dataview-value-background:     rgba(200, 120, 60, 0.1);
+
+    --tab-text-color-focused-active:         rgb(180, 100, 40);
+    --tab-text-color-focused-active-current: rgb(200, 120, 60);
+}
+
+/* Improve code block appearance in light theme */
+.theme-light pre,
+.theme-light code {
+    color: var(--code-normal);
+    background: var(--code-background);
+    border-radius: 6px;
+    padding: 0.2em 0.4em;
+    font-size: 1em;
+    font-family: "JetBrains Mono", "Fira Mono", "Consolas", monospace;
+}
