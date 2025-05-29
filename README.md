@@ -43,6 +43,9 @@ No one tells them where to go. There is no need.
 
 In this place of ash and amber, they rest. And the world, as if in apology, lets them.
 
+
+![Soldier resting](https://raw.githubusercontent.com/7RiKuSama/Ash-and-Amber/refs/heads/main/image.webp)
+
 ---
 
 > *"Ash remembers. Amber forgives."*
